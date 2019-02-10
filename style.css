@@ -1,5 +1,5 @@
 html {
-  background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+  background: #018DED url(http://unsplash.it/1500/1000?image=931&blur=5);
   background-size: cover;
   font-family: 'helvetica neue';
   text-align: center;
@@ -18,14 +18,14 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 20px solid white;
+  border: 20px solid #2C365E;
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
   padding: 2rem;
   box-shadow:
     0 0 0 4px rgba(0,0,0,0.1),
-    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 0 3px #2C365E,
     inset 0 0 10px black,
     0 0 10px rgba(0,0,0,0.2);
 }
@@ -47,4 +47,18 @@ body {
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand {
+  height: 12px;
+  background: #484D6D;
+}
+
+.min-hand {
+  height: 9px;
+  background: #4B8F8C;
+}
+
+.second-hand {
+  background: #B39C4D;
 }
