@@ -3,6 +3,8 @@ This is a refreshed attempt at the CSS &amp; JavaScript Clock, built as part of 
 
 This project displays an analog-style clock that shows the current time. It features three hands representing hours, minutes and seconds.
 
+Live demo: https://lukeprosser.github.io/clock2/
+
 ## HTML
 The HTML markup is really simple - divs are created to hold clock, clock face and individual clock hands.
 
