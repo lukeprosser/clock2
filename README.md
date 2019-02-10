@@ -1,5 +1,5 @@
-# clock
-CSS &amp; JavaScript Clock
+# Clock
+This is a refreshed attempt at the CSS &amp; JavaScript Clock, built as part of 'JavaScript30' with Wes Bos.
 
 This project displays an analog-style clock that shows the current time. It features three hands representing hours, minutes and seconds.
 
